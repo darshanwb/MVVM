@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.LoginActivity">
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:text="bs@gmail.com"
+            android:inputType="textWebEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:text="Bs@12345"
+            android:layout_marginTop="10dp"
+            android:inputType="textWebEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:text="Login"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</layout>
